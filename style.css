@@ -3,7 +3,7 @@ body{
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- background-color: #ffb8b1;
+ background-color: whitesmoke;
  width: 100%;
  height: 100vh;
 }
@@ -48,7 +48,7 @@ ul{
 .login{
  border: 1px solid #993441;
  color: #993441;
- background-color: #ffb8b1;
+ background-color: whitesmoke;
 }
 .login:hover{
  border: 1px solid #993441;
@@ -79,7 +79,7 @@ h2{
  padding-left: 70px;
  color: #993441;
 }
-p{
+.section1 p{
  padding-left: 70px;
  text-transform: capitalize;
  font-size: x-large;
@@ -87,6 +87,9 @@ p{
  font-family: sans-serif;
  color: rgb(36, 11, 11);
 } 
+.section1{
+ margin-bottom: 50px;
+}
 .w3-bar-item{
  font-family: sans-serif;
  text-transform: capitalize;
