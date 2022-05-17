@@ -186,7 +186,6 @@ h1{
     padding-top: 200px;
     color: white;
     margin-left: 40px;
-    padding-right: 1200px;
 }
 h3{
     color: white;
@@ -274,7 +273,7 @@ img{
 p{
     font-size: 15px;
 }
-h2{
+.h2{
     font-size: 20px;
 }
 
