@@ -5,9 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Mentorship Platform</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e2eb231d20.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="section1"></section>
+    <section class="section1">
+        <nav>
+            <ul class="left">
+              <a href="index.html">OMP</a>
+            </ul>
+            <ul class="right">
+              <li>find a mentor</li>
+              <li>become a mentor</li>
+              <input type="button" value="login" class="login" />
+              <input type="button" value="sing up" class="sign" />
+            </ul>
+          </nav>
+          <div class="content">
+           <div class="w3-bar w3-black">
+            <button class="w3-bar-item w3-button" id="btn1" onclick="openUser('Mentee')">Mentee</button>
+            <button class="w3-bar-item w3-button" id='btn2' onclick="openUser('Mentor')">Mentor</button>
+          </div>
+          <div id="Mentee" class="user">
+           <h2>learn and grow with help from <br> world-class mentors</h2>
+           <p>book and meet over <b>6,920+</b> mentors for 1:1 <br> setions in our global community.</p>
+         <div class="search"> 
+            <i class="fa-solid fa-magnifying-glass" id="mag_glass"></i>
+            <input
+              type="text"
+              id="search"
+              placeholder="Search by company, language or role"
+            />
+            <div class="select">
+              <label for="expertise"></label>
+               <select name="expertise" id="pick">
+                <option value="">Expertise</option>
+                <option value="">Design</option>
+                <option value="">Marketing</option>
+                <option value="">Product Management</option>
+                <option value="">Product Research</option>
+                <option value="">Software Development</option>
+               </select>
+               
+            </div>
+            <div class="select" id="select_2">
+              <label for="country"></label>
+               <select name="country" id="pick">
+                <option value="">country</option>
+                <option value="">Design</option>
+                <option value="">Marketing</option>
+                <option value="">Product Management</option>
+                <option value="">Product Research</option>
+                <option value="">Software Development</option>
+               </select>
+            </div>
+            <input type="submit" value="Submit" id="search_btn">
+          </div>
+         </div>
+         
+         <div id="Mentor" class="user" style="display:none">
+           <h2>your next chapter, made <br> possible by mentoring.</h2>
+           <p> build confidence as a leader, grow your network, and <br> define your
+            legacy</p>
+            <button id="btn3">become a mentor</button>
+         </div>
+      
+      
+        <script src="index.js"></script>
+    </section>
     <section class="section2"></section>
     <section class="section3"></section>
     <section class="section4"></section>
