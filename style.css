@@ -17,9 +17,9 @@ ul{
  list-style: none;
 }
 .right{
- margin-left: 600px;
+ margin-left: 500px;
 }
-.left a{
+.section1 .left a{
  text-decoration: none;
  font-family: sans-serif;
  font-size: xx-large;
@@ -27,6 +27,9 @@ ul{
  color: #993441;
  padding-top: 5px;
  cursor: pointer;
+}
+.logo{
+  margin-left: 30px;
 }
 .right li{
  padding-right: 30px;
@@ -175,6 +178,56 @@ h2{
 }
 /* end of section one styling*/
 
+/* section 3*/
+.section3{
+  display: flex;
+  margin-bottom: 20px;
+}
+.book{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(/assets/images/book_1.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  margin-left: 70px;
+  border-radius: 30px
+}
+.group{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(/assets/images/video.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  margin-left: 70px;
+  border-radius: 30px;
+}
+.section3 strong{
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+.section3 h5{
+  font-family: sans-serif;
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6),black);
+  color: wheat;
+  font-size: small;
+  padding: 25px;
+  margin-top: 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.section3 button{
+  height: 45px;
+  margin: 20px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  color: wheat;
+  background-color: #993441;
+  text-transform: capitalize;
+}
+
 /*Section 2 Style*/
 .img1{
     background-image: url(./assets/images/man2.jpg);
@@ -236,6 +289,334 @@ a{
     
 }
 /*end of section2*/
+
+/* section 3*/
+.profile1{
+ height: 400px;
+ width: 300px;
+ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(/assets/images/profile_pic2.jpeg);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ border-radius: 20px;
+}
+.profile2{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile3{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic3.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile4{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic4.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile5{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic5.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile6{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic6.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile7{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic7.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile8{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic8.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile9{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic9.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile10{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic10.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ #headshot{
+  margin-left: 50px;
+ }
+#section4{
+ margin-left: 20px;
+ padding-bottom: 30px;
+ overflow: auto;
+}
+
+.bottom{
+ padding-top: 250px;
+ margin-left: 30px;
+ color: bisque;
+}
+.fa-plus{
+ padding-right: 20px;
+ font-size: small;
+ color: wheat;
+}
+.fa-heart{
+ color: #993441;
+}
+.fa{
+ float: right;
+ margin: 20px;
+}
+.bottom h4{
+ text-transform: capitalize;
+ font-family: sans-serif;
+}
+.bottom_link{
+ display: flex;
+ text-transform: capitalize;
+ font-size: small;
+}
+.bottom b{
+ font-size: small;
+}
+.profile_container{
+  display: flex;
+  width: 250vw;
+  
+}
+.section4 h3{
+  margin-left: 70px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: larger;
+  color: #993441;
+}
+.fixed{
+  display: flex;
+}
+.fixed a{
+  text-decoration: none;
+  color: #993441;
+  text-transform: capitalize;
+  border: 1px solid #993441;
+  width: 120px;
+  text-align: center;
+  padding-top: 10px;
+  height: 25px;
+  border-radius: 10px;
+  margin-left: 800px;
+}
+
+/*mentor list css*/
+.mentor_container{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+#list a{
+
+ text-decoration: none;
+ font-family: sans-serif;
+ font-size: xx-large;
+ font-weight: bold;
+ color: #993441;
+ padding-top: 5px;
+ cursor: pointer;
+}
+#srch{
+  margin-left: 170px;
+  margin-top: 20px;
+}
+.profile1{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(/assets/images/profile_pic2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile2{
+   height: 400px;
+   width: 300px;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+  }
+  .profile3{
+   height: 400px;
+   width: 300px;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic3.webp);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+  }
+  .profile4{
+   height: 400px;
+   width: 300px;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic4.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+  }
+  .profile5{
+   height: 400px;
+   width: 300px;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic5.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+  }
+  .profile6{
+   height: 400px;
+   width: 300px;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic6.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+  }
+  .profile7{
+   height: 400px;
+   width: 300px;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic7.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+  }
+  .profile8{
+   height: 400px;
+   width: 300px;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic8.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+  }
+  .profile9{
+   height: 400px;
+   width: 300px;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic9.webp);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+  }
+  .profile10{
+   height: 400px;
+   width: 300px;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic10.webp);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+  }
+  .profile11{
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic11.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+   }
+   .profile12{
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+   }
+   .profile13{
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic13.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+   }
+   .profile14{
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic14.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+   }
+   .profile15{
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic15.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+   }
+   #headshot_m{
+     margin-bottom: 20px;
+   }
+   h6{
+     margin-bottom: 0;
+     margin-left: 170px;
+     font-family: sans-serif;
+     font-size: xx-large;
+   }
+   h6 b{
+     font-size: small;
+     color: #993441;
+   }
 
 /*start of section5*/
 /*styling footer*/
