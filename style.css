@@ -10,13 +10,19 @@ body{
 nav{
  display: flex;
  border-bottom: 1px solid #993441;
+ width: 100%;
+ background-color: whitesmoke;
+ position: fixed;
+ top: 0;
+ z-index: 20;
+
 }
 ul{
  display: flex;
  list-style: none;
 }
 .right{
- margin-left: 500px;
+ margin-left: 430px;
 }
 .section1 .left a{
  text-decoration: none;
@@ -28,7 +34,11 @@ ul{
  cursor: pointer;
 }
 .logo{
-  margin-left: 30px;
+  margin-left: 40px;
+}
+.right{
+  display: flex;
+  float: right;
 }
 .right li{
  padding-right: 30px;
@@ -64,7 +74,7 @@ ul{
  background-color: #993441;
 }
  .content{
-  padding-top: 150px;
+  padding-top: 250px;
  }   
 
 .mentee{
@@ -111,7 +121,7 @@ h2{
  border: 1px solid rgba(153, 52, 65, 0.3);
  height: 70px;
  border-radius: 10px;
- width: 70%;
+ width: 875px;
  display: flex;
 }
 .search input{
@@ -171,6 +181,7 @@ h2{
   border-radius: 10px;
   margin-top: 5px;
   margin-left: 50px;
+  cursor: pointer;
 }
 #select_2{
   border: none;
@@ -224,6 +235,7 @@ h2{
   color: wheat;
   background-color: #993441;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 /* section 3*/
@@ -235,7 +247,11 @@ h2{
  background-size: cover;
  background-repeat: no-repeat;
  border-radius: 20px;
+ cursor: pointer;
 }
+.profile1:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic2.jpeg);
+ }
 .profile2{
   height: 400px;
   width: 300px;
@@ -244,6 +260,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }
+ .profile2:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic.jpg);
  }
  .profile3{
   height: 400px;
@@ -253,6 +273,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }
+ .profile3:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic3.webp);
  }
  .profile4{
   height: 400px;
@@ -262,6 +286,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }
+ .profile4:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic4.jpeg);
  }
  .profile5{
   height: 400px;
@@ -271,6 +299,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }
+ .profile5:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic5.jpeg);
  }
  .profile6{
   height: 400px;
@@ -280,6 +312,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }
+ .profile6:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic6.jpeg);
  }
  .profile7{
   height: 400px;
@@ -289,6 +325,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }
+ .profile7:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic7.jpeg);
  }
  .profile8{
   height: 400px;
@@ -298,6 +338,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }
+ .profile8:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic8.jpeg);
  }
  .profile9{
   height: 400px;
@@ -307,6 +351,9 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }.profile9:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic9.webp);
  }
  .profile10{
   height: 400px;
@@ -316,6 +363,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }
+ .profile10:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic10.webp);
  }
  #headshot{
   margin-left: 50px;
@@ -400,6 +451,7 @@ h2{
  padding-top: 5px;
  cursor: pointer;
 }
+
 #srch{
   margin-left: 170px;
   margin-top: 20px;
@@ -412,6 +464,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+ }
+ .profile1:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic2.jpeg);
  }
  .profile2{
    height: 400px;
@@ -421,7 +477,11 @@ h2{
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px;
+   cursor: pointer;
   }
+  .profile2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic.jpg);
+   }
   .profile3{
    height: 400px;
    width: 300px;
@@ -430,7 +490,11 @@ h2{
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px;
+   cursor: pointer;
   }
+  .profile3:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic3.webp);
+   }
   .profile4{
    height: 400px;
    width: 300px;
@@ -439,7 +503,11 @@ h2{
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px;
+   cursor: pointer;
   }
+  .profile4:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic4.jpeg);
+   }
   .profile5{
    height: 400px;
    width: 300px;
@@ -448,7 +516,11 @@ h2{
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px;
+   cursor: pointer;
   }
+  .profile5:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic5.jpeg);
+   }
   .profile6{
    height: 400px;
    width: 300px;
@@ -457,8 +529,13 @@ h2{
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px;
+   cursor: pointer;
   }
+  .profile6:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic6.jpeg);
+   }
   .profile7{
+    cursor: pointer;
    height: 400px;
    width: 300px;
    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic7.jpeg);
@@ -467,6 +544,9 @@ h2{
    background-repeat: no-repeat;
    border-radius: 20px;
   }
+  .profile7:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic7.jpeg);
+   }
   .profile8{
    height: 400px;
    width: 300px;
@@ -475,7 +555,11 @@ h2{
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px;
+   cursor: pointer;
   }
+  .profile8:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic8.jpeg);
+   }
   .profile9{
    height: 400px;
    width: 300px;
@@ -484,7 +568,11 @@ h2{
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px;
+   cursor: pointer;
   }
+  .profile9:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic9.webp);
+   }
   .profile10{
    height: 400px;
    width: 300px;
@@ -493,7 +581,11 @@ h2{
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px;
+   cursor: pointer;
   }
+  .profile10:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic10.webp);
+   }
   .profile11{
     height: 400px;
     width: 300px;
@@ -502,6 +594,10 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
+    cursor: pointer;
+   }
+   .profile11:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic11.jpeg);
    }
    .profile12{
     height: 400px;
@@ -511,6 +607,10 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
+    cursor: pointer;
+   }
+   .profile12:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic12.jpg);
    }
    .profile13{
     height: 400px;
@@ -520,6 +620,10 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
+    cursor: pointer;
+   }
+   .profile13:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic13.webp);
    }
    .profile14{
     height: 400px;
@@ -529,6 +633,10 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
+    cursor: pointer;
+   }
+   .profile14:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic14.webp);
    }
    .profile15{
     height: 400px;
@@ -538,6 +646,10 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
+    cursor: pointer;
+   }
+   .profile15:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic15.webp);
    }
    #headshot_m{
      margin-bottom: 20px;
