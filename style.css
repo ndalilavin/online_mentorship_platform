@@ -17,6 +17,9 @@ nav{
  z-index: 20;
 
 }
+.nav_link{
+  text-decoration: none;
+}
 ul{
  display: flex;
  list-style: none;
@@ -198,7 +201,7 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
-  width: 500px;
+  width: 570px;
   margin-left: 70px;
   border-radius: 30px
 }
@@ -208,9 +211,10 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
-  width: 500px;
-  margin-left: 70px;
+  width: 570px;
+  margin-right: 70px;
   border-radius: 30px;
+  margin-left: 20px;
 }
 .section3 strong{
   text-transform: capitalize;
@@ -219,7 +223,7 @@ h2{
 .section3 h5{
   font-family: sans-serif;
   background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6),black);
-  color: wheat;
+  color: rgba(214, 203, 181, 0.8);
   font-size: small;
   padding: 25px;
   margin-top: 0;
@@ -232,7 +236,7 @@ h2{
   width: 150px;
   border-radius: 10px;
   border: none;
-  color: wheat;
+  color: rgba(214, 203, 181, 0.8);
   background-color: #993441;
   text-transform: capitalize;
   cursor: pointer;
@@ -441,17 +445,22 @@ h2{
   justify-content: center;
   margin: 20px;
 }
-#list a{
-
+#list .nav_link{
  text-decoration: none;
  font-family: sans-serif;
  font-size: xx-large;
- font-weight: bold;
- color: #993441;
- padding-top: 5px;
+ font-weight: lighter;
+ color: #983441;
  cursor: pointer;
 }
-
+.logo {
+  font-weight: bold;
+  text-decoration: none;
+ font-family: sans-serif;
+ font-size: xx-large;
+ color: #983441;
+ cursor: pointer;
+}
 #srch{
   margin-left: 170px;
   margin-top: 20px;
@@ -659,8 +668,63 @@ h2{
      margin-left: 170px;
      font-family: sans-serif;
      font-size: xx-large;
+     padding-top: 30px;
    }
    h6 b{
      font-size: small;
      color: #993441;
    }
+   /*section 3 css*/
+   .sec_3_bg{
+     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/sec_3_bg.jpeg);
+     background-position: center;
+     background-size: cover;
+     height: 530px;
+     margin-bottom: 70px;
+     margin-left: 70px;
+     margin-right: 70px;
+     border-radius: 30px;
+   }
+   .sec_3_bg h2{
+     font-family: sans-serif;
+     color: rgba(214, 203, 181, 0.8);
+     font-size: xx-large;
+     padding-top: 200px;
+   }
+   .services{
+     display: flex;
+   }
+   .sec_3_bg h4{
+     color: rgba(214, 203, 181, 0.8);
+     text-transform: capitalize;
+     font-size: x-large;
+   }
+   .jsca{
+     margin-left: 25px;
+     height: 200px;
+     width: 300px;
+     background-color: rgba(0,0,0,0.8);
+     padding-left: 30px;
+     border-radius: 10px;
+     margin-right: 25px;
+   }
+   .jsca:hover{
+     transform: scale(1.05);
+   }
+
+   .jsca p{
+     color: rgba(214, 203, 181, 0.8);
+     text-transform: capitalize;
+     font-family: sans-serif;
+     font-size: 15px;
+   }
+   .jsca button{
+     background-color: transparent;
+     border: 1px solid rgba(214, 203, 181, 0.8);
+     color: rgba(214, 203, 181, 0.8);
+     padding: 5px;
+     border-radius: 7px;
+     text-transform: capitalize;
+     cursor: pointer;
+   }
+   
