@@ -1,3 +1,4 @@
+
 /* section one styling*/
 body{
  margin: 0;
@@ -176,6 +177,7 @@ h2{
   border: none;
 }
 /* end of section one styling*/
+
 /* section 3*/
 .section3{
   display: flex;
@@ -225,6 +227,68 @@ h2{
   background-color: #993441;
   text-transform: capitalize;
 }
+
+/*Section 2 Style*/
+.img1{
+    background-image: url(./assets/images/man2.jpg);
+    background-size: cover;
+    height: 700px;
+    border-radius: 15px;
+}
+h1{
+    padding-top: 200px;
+    color: white;
+    margin-left: 40px;
+}
+h3{
+    color: white;
+    display: flex;
+}
+#column1{
+    float: left;
+    background-color: rgba(4, 15, 4, 0.979);
+    width: 300px;
+    color: white;
+    margin-left: 50px;
+    height: 150px;
+    border-radius: 15px;
+    padding-left: 30px;
+    font-size: 20px;
+    height: 220px;
+}
+#column2{
+    float: left;
+    background-color: rgba(4, 15, 4, 0.979);
+    width: 300px;
+    color: white;  
+    margin-left: 50px;
+    height: 220px;
+    border-radius: 15px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+#column3{
+    float: left;
+    background-color: rgba(4, 15, 4, 0.979);
+    width: 300px;
+    color: white;
+    margin-left: 50px;
+    height: 220px;
+    border-radius: 15px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 17px;
+    
+}
+/*end of section2*/
 
 /* section 3*/
 .profile1{
@@ -382,6 +446,7 @@ h2{
   border-radius: 10px;
   margin-left: 800px;
 }
+
 /*mentor list css*/
 .mentor_container{
   display: flex;
@@ -552,3 +617,45 @@ h2{
      font-size: small;
      color: #993441;
    }
+
+/*start of section5*/
+/*styling footer*/
+.footer{
+    margin-top: 60px;
+}
+#footer{
+    float: left;
+    margin: 100px 100px 0px 70px;
+    align-items: center;
+}
+#footer1{
+    float: left;
+    margin-top: 50px;
+}
+#footer2{
+    float: left;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+#footer3{
+    float: left;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+#footer4{
+    float: left;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+img{
+    width: 40px;
+    margin-top: 40px;
+}
+p{
+    font-size: 15px;
+}
+.h2{
+    font-size: 20px;
+}
+
+/* end of section5*/
