@@ -10,15 +10,22 @@ body{
 }
 nav{
  display: flex;
- border-bottom: 1px solid #993441;
+ border-bottom: 1px solid hsl(352, 49%, 40%);
 }
 ul{
  display: flex;
  list-style: none;
 }
+
+.navcolor {
+  color: hsl(352, 49%, 40%);
+}
+
+
 .right{
  margin-left: 500px;
 }
+
 .section1 .left a{
  text-decoration: none;
  font-family: sans-serif;
