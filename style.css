@@ -18,7 +18,7 @@ ul{
 .right{
  margin-left: 600px;
 }
-.left a{
+.section1 .left a{
  text-decoration: none;
  font-family: sans-serif;
  font-size: xx-large;
@@ -173,22 +173,111 @@ h2{
   border: none;
 }
 /* end of section one styling*/
-.profile{
+.profile1{
  height: 400px;
  width: 300px;
- background-image: url(/assets/images/profile_pic2.jpeg);
+ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(/assets/images/profile_pic2.jpeg);
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
  border-radius: 20px;
 }
+.profile2{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile3{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic3.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile4{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic4.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile5{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic5.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile6{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic6.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile7{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic7.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile8{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic8.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile9{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic9.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ .profile10{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic10.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ }
+ #headshot{
+  margin-left: 50px;
+ }
 #section4{
  margin-left: 20px;
  padding-bottom: 30px;
+overflow: auto;
+}
+.section4{
+  
 }
 .bottom{
  padding-top: 250px;
  margin-left: 30px;
+ color: bisque;
 }
 .fa-plus{
  padding-right: 20px;
@@ -196,7 +285,7 @@ h2{
  color: wheat;
 }
 .fa-heart{
- color: green;
+ color: #993441;
 }
 .fa{
  float: right;
@@ -214,6 +303,30 @@ h2{
 .bottom b{
  font-size: small;
 }
-
-
-
+.profile_container{
+  display: flex;
+  width: 250vw;
+  
+}
+.section4 h3{
+  margin-left: 70px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: larger;
+  color: #993441;
+}
+.fixed{
+  display: flex;
+}
+.fixed a{
+  text-decoration: none;
+  color: #993441;
+  text-transform: capitalize;
+  border: 1px solid #993441;
+  width: 120px;
+  text-align: center;
+  padding-top: 10px;
+  height: 25px;
+  border-radius: 10px;
+  margin-left: 800px;
+}
