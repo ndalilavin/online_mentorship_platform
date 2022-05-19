@@ -755,14 +755,14 @@ h2{
    }
    /*testimonial css*/
 .ts_pics{
-  background-image: url(/assets/images/ts_pic_1.jpeg);
+  background-image: url(/assets/images/mentee11.jpeg);
   background-position: center;
   background-size: cover;
   height: 250px;
   width: 200px;
 }
 .ts_pics2{
-  background-image: url(/assets/images/ts_pic\ _2.jpeg);
+  background-image: url(/assets/images/mentee2.webp);
   background-position: center;
   background-size: cover;
   height: 250px;
@@ -770,7 +770,7 @@ h2{
   margin-left: 10px;
 }
 .ts_pics3{
-  background-image: url(/assets/images/ts_pic_3.jpeg);
+  background-image: url(/assets/images/mentee3.jpeg);
   background-position: center;
   background-size: cover;
   height: 250px;
