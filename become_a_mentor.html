@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Become A Mentor</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="become_a_mentor.css"/>
 </head>
 <body>
     <nav>
@@ -19,9 +20,124 @@
           <a href="signup.html"><input type="button" value="sign up" class="sign" /></a>
           </ul>
     </nav>
+    <br><br><br><br>
+    
 
-    <section class="why"></section>
-    <section class="reviews"></section>
-    <section class="footer"></section>
+<h2 id="mentorh2">Mentor Sign up form</h2>
+<p><b>&nbsp &nbsp &nbsp &nbsp &nbsp Please create your profile below to join our network of mentors</b></p>
+<div class="container">
+  <form action="/">
+    <div class="row">
+        <div class="col-25">
+          <label for="img" id="profile">Display Picture</label>
+        </div>
+        <div class="col-75">
+          <input type="file" id="profile" name="profile" accept="image/*">
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Enter first name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Enter last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="kenya">Kenya</option>
+          <option value="australia">Uganda</option>
+          <option value="canada">Tanzania</option>
+          <option value="usa">Somalia</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+          <label for="experience">Experience</label>
+        </div>
+        <div class="col-75">
+          <input type="number" id="experience" name="experience" placeholder="Years of experience">
+        </div>
+    </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Profession">Profession</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="profession" name="profession" placeholder="Career title or field of expertise">
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">About You</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Professional Summary" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <button type="submit" class = 'submitbtn' value="Submit">Submit</button>
+    </div>
+  </form>
+</div>
+  
+</div>
+<div class="formdata" id="formdata"></div>
+<section class="section5">
+        <div class="footer">
+          <hr>
+            <div id="footer">
+                
+                <p>Your trusted source to find highly-vetted mentors<br>& industry professionals to move your career<br>ahead</p>
+                <img src="./assets/icons/fb1.png" alt="">
+                <img src="./assets/icons/insta1.jpg" alt="">
+                <img src="./assets/icons/twiter1.png" alt="">
+                <img src="./assets/icons/in.png" alt="">
+            </div>
+            <div id="footer1">
+                <h2 class="h2">PLATFORM</h2>
+                <p>Browse Mentors</p>
+                <p>Book a Session</p>
+                <p>Become a Mentor</p>
+                <p>Mentorship for Teams</p>
+                <p>Mentor Groups</p>
+            </div>
+            <div id="footer2">
+                <h2 class="h2">RESOURCES</h2>
+                <p>Newsletter</p>
+                <p>Case Studies</p>
+                <p>Porks</p>
+                <p>Testimonials</p>
+                <p>Blog</p>
+            </div>
+            <div id="footer3">
+                <h2 class="h2">COMPANY</h2>
+                <p>About</p>
+                <p>Partner Program</p>
+                <p>Write For Us</p>
+                <p>Code of Conduct</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div id="footer4">
+                <h2 class="h2">SUPPORT</h2>
+                <p>FAQ</p>
+                <p>Contact</p>
+            </div>
+        </div>
+    </section>
 </body>
+<script type="text/javascript" src="mentor-form.js"></script>
 </html>
