@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    border-bottom: 1px solid #993441;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
