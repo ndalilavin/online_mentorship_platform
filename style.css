@@ -43,7 +43,9 @@ ul{
 .right{
  margin-left: 430px;
 }
-
+.right a{
+  text-decoration: none;
+}
 .section1 .left a{
  text-decoration: none;
  font-family: sans-serif;
@@ -261,65 +263,7 @@ h2{
 }
 
 /*Section 2 Style*/
-.img1{
-    background-image: url(./assets/images/man2.jpg);
-    background-size: cover;
-    height: 700px;
-    border-radius: 15px;
-}
-h1{
-    padding-top: 200px;
-    color: white;
-    margin-left: 40px;
-}
-h3{
-    color: white;
-    display: flex;
-}
-#column1{
-    float: left;
-    background-color: rgba(4, 15, 4, 0.979);
-    width: 300px;
-    color: white;
-    margin-left: 50px;
-    height: 150px;
-    border-radius: 15px;
-    padding-left: 30px;
-    font-size: 20px;
-    height: 220px;
-}
-#column2{
-    float: left;
-    background-color: rgba(4, 15, 4, 0.979);
-    width: 300px;
-    color: white;  
-    margin-left: 50px;
-    height: 220px;
-    border-radius: 15px;
-    padding-left: 30px;
-    font-size: 20px;
-}
-#column3{
-    float: left;
-    background-color: rgba(4, 15, 4, 0.979);
-    width: 300px;
-    color: white;
-    margin-left: 50px;
-    height: 220px;
-    border-radius: 15px;
-    padding-left: 30px;
-    font-size: 20px;
-}
-a{
-    color: white;
-    text-decoration: none;
-    padding-left: 15px;
-    margin: 20px;
-    border: 2px solid white;
-    border-radius: 7px;
-    font-size: 17px;
-    
-}
+
 /*end of section2*/
 
 /* section 3*/
@@ -945,19 +889,23 @@ a{
     margin-left: 90px;
     margin-top: 50px;
 }
+.h2{
+  padding-left: 0;
+}
+
 #footer4{
     float: left;
     margin-left: 90px;
     margin-top: 50px;
 }
-#footer>img{
+.footer img{
     width: 40px;
     margin-top: 40px;
 }
-#footer>p{
+.footer p{
     font-size: 15px;
 }
-#footer>.h2{
+.footer h2{
     font-size: 20px;
 }
 
