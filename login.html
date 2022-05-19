@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Signin form
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="left">
+          <a href="index.html" class="logo">OMP</a>
+        </ul>
+        <ul class="right">
+          <li><a class="navcolor" href="mentors.html">Find a mentor</a></li>
+          <li><a class="navcolor" href="become_a_mentor.html">Become a mentor</a></li>
+          <input type="button" value="sign in" class="login" />
+          <input type="button" value="sign up" class="sign" />
+        </ul>
+      </nav>
+      <h1>Join OMP Today</h1>
+    <div class="form" id="signin-form">
+        <a href="#" class="form-logo">
+            <img src="./assets/images/mentor101.png" alt="company logo">
+        </a>
+        <div class="form-group">
+            <input type="email" class="form-input" placeholder="Email" id="signin-email">
+            <span class="form-input-icon err">
+                <i class='bx bx-error-circle'></i>
+            </span>
+            <span class="form-input-icon success">
+                <i class='bx bx-check-circle'></i>
+            </span>
+            <span class="form-input-err-msg" data-err-for="signin-email"></span>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-input" placeholder="Password" id="signin-password">
+            <span class="form-input-icon err">
+                <i class='bx bx-error-circle'></i>
+            </span>
+            <span class="form-input-icon success">
+                <i class='bx bx-check-circle'></i>
+            </span>
+            <span class="form-input-err-msg" data-err-for="signin-password"></span>
+        </div>
+        <div class="form-group form-group-checkbox">
+            <input type="checkbox" name="remember" id="remember" checked="checked">
+            <label for="remember">
+                Remember Me
+                <i class='bx bx-check'></i>
+            </label>
+        </div>
+        <button class="form-btn" id="signin-btn">Sign in</button>
+        <span class="form-delimiter">
+            or connect with
+        </span>
+        <div class="form-social">
+            <a href="#" class="form-social-item fb">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="#" class="form-social-item tw">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="#" class="form-social-item gg">
+                <i class='bx bxl-google'></i>
+            </a>
+        </div>
+        <span class="form-txt">
+            Don't have an account?
+            <a href="#">Sign up!</a>
+        </span>
+        <span class="form-txt">
+            <a href="#">Forgot password?</a>
+        </span>
+    </div>
+
+    <!-- login JS -->
+    <script src="login.js"></script>
+
+</body>
+
+</html>
