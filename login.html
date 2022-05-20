@@ -28,12 +28,13 @@
     </nav>
     <h1>Welcome back!</h1>
     <p>Please sig in below:</p>
-    <div class="form" id="signin-form">
-        <a href="#" class="form-logo">
-            <img src="./assets/images/mentor101.png" alt="company logo">
-        </a>
+    <form action="mentors.html">
+     <div class="form" id="signin-form">
+         <a href="#" class="form-logo">
+             <img src="./assets/images/mentor101.png" alt="company logo">
+         </a>
         <div class="form-group">
-            <input type="email" class="form-input" placeholder="Email" id="signin-email">
+            <input type="email" class="form-input" placeholder="Email" id="signin-email" required>
             <span class="form-input-icon err">
                 <i class='bx bx-error-circle'></i>
             </span>
@@ -43,7 +44,7 @@
             <span class="form-input-err-msg" data-err-for="signin-email"></span>
         </div>
         <div class="form-group">
-            <input type="password" class="form-input" placeholder="Password" id="signin-password">
+            <input type="password" class="form-input" placeholder="Password" id="signin-password"required>
             <span class="form-input-icon err">
                 <i class='bx bx-error-circle'></i>
             </span>
@@ -82,6 +83,7 @@
             <a href="#">Forgot password?</a>
         </span>
     </div>
+</form>
 
     <!-- login JS -->
     <script src="login.js"></script>
