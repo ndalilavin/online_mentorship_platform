@@ -125,7 +125,7 @@ h2{
 .section1{
  margin-bottom: 50px;
 }
-.w3-bar-item{
+.bar-item{
  font-family: sans-serif;
  text-transform: capitalize;
  font-size: 15px;
@@ -760,6 +760,7 @@ h2{
   background-size: cover;
   height: 250px;
   width: 200px;
+  border-radius: 10px;
 }
 .ts_pics2{
   background-image: url(/assets/images/ts_pic\ _2.jpeg);
@@ -768,6 +769,7 @@ h2{
   height: 250px;
   width: 200px;
   margin-left: 10px;
+  border-radius: 10px;
 }
 .ts_pics3{
   background-image: url(/assets/images/ts_pic_3.jpeg);
@@ -776,6 +778,7 @@ h2{
   height: 250px;
   width: 200px;
   margin-left: 10px;
+  border-radius: 10px;
 }
 .blur_bottom{
   position: absolute;
@@ -809,7 +812,7 @@ h2{
   margin-left: 550px;
 }
 #biggie{
-  background-color: rgb(152, 52, 65);
+  background-color: rgba(88, 5, 15, 0.9);
   width: 80px;
   height: 80px;
   color: whitesmoke;
@@ -820,7 +823,7 @@ h2{
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
-  margin-top: -50px;
+  margin-top: -35px;
   margin-left: 100px;
 }
 .content_holder{
@@ -910,3 +913,19 @@ h2{
 }
 
 /* end of section5*/
+@media screen and (max-width:289px) {
+.right{
+display: none;
+}
+}
+@media screen and (max-width:701px) {
+  #btn1{
+  margin-left: 0;
+  }
+  .user h2{
+    padding-left: 0;
+  }
+  .user p{
+    padding-left: 0;
+  }
+}

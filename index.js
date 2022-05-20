@@ -6,3 +6,7 @@ function openUser(userName) {
  }
  document.getElementById(userName).style.display = "block";
 }
+
+function callMentor (country) {
+  
+}
