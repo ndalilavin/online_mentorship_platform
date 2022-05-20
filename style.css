@@ -10,7 +10,7 @@ body{
 }
 
 .section1 {
-  background-image: url('assets/images/homeimg.png');
+  background-image: url(assets/images/homeimg.png);
   background-repeat: no-repeat;
   background-position: center right;
 }
@@ -229,7 +229,7 @@ h2{
   margin-bottom: 20px;
 }
 .book{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(/assets/images/book_1.webp);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(assets/images/book_1.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@ h2{
   border-radius: 30px
 }
 .group{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(/assets/images/video.webp);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(assets/images/video.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -644,12 +644,12 @@ h2{
     cursor: pointer;
    }
    .profile11:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic11.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(assets/images/profile_pic11.jpeg);
    }
    .profile12{
     height: 400px;
     width: 300px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic12.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(assets/images/profile_pic12.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -657,12 +657,12 @@ h2{
     cursor: pointer;
    }
    .profile12:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic12.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(assets/images/profile_pic12.jpg);
    }
    .profile13{
     height: 400px;
     width: 300px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic13.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(assets/images/profile_pic13.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -670,12 +670,12 @@ h2{
     cursor: pointer;
    }
    .profile13:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic13.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(assets/images/profile_pic13.webp);
    }
    .profile14{
     height: 400px;
     width: 300px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic14.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(assets/images/profile_pic14.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -683,12 +683,12 @@ h2{
     cursor: pointer;
    }
    .profile14:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic14.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(assets/images/profile_pic14.webp);
    }
    .profile15{
     height: 400px;
     width: 300px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(/assets/images/profile_pic15.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(assets/images/profile_pic15.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -696,7 +696,7 @@ h2{
     cursor: pointer;
    }
    .profile15:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/profile_pic15.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(assets/images/profile_pic15.webp);
    }
    #headshot_m{
      margin-bottom: 20px;
@@ -709,13 +709,12 @@ h2{
      padding-top: 30px;
    }
    h6 b{
-     font-size: ;
      color: #993441;
    }
 
    /*section 3 css*/
    .sec_3_bg{
-     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(/assets/images/sec_3_bg.jpeg);
+     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(assets/images/sec_3_bg.jpeg);
      background-position: center;
      background-size: cover;
      height: 530px;
@@ -768,7 +767,7 @@ h2{
    }
    /*testimonial css*/
 .ts_pics{
-  background-image: url(/assets/images/mentee11.jpeg);
+  background-image: url(assets/images/mentee11.jpeg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -776,7 +775,7 @@ h2{
   width: 200px;
 }
 .ts_pics2{
-  background-image: url(/assets/images/mentee2.webp);
+  background-image: url(assets/images/mentee2.webp);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -785,7 +784,7 @@ h2{
   margin-left: 10px;
 }
 .ts_pics3{
-  background-image: url(/assets/images/mentee3.jpeg);
+  background-image: url(assets/images/mentee3.jpeg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -868,7 +867,7 @@ h2{
 }
 
 .testimonials{
-  background-image: linear-gradient(rgba(152, 52, 65,0.6),rgba(152, 52, 65,0.6)), url(/assets/images/building.jpeg);
+  background-image: linear-gradient(rgba(152, 52, 65,0.6),rgba(152, 52, 65,0.6)), url(assets/images/building.jpeg);
   background-position: center;
   background-size: cover;
   height: 500px;
